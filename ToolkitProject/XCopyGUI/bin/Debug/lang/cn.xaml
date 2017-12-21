@@ -1,0 +1,42 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:ToolkitProject.resources"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="srcdir">源目录</sys:String>
+    <sys:String x:Key="dstdir">目标目录</sys:String>
+    <sys:String x:Key="start">开始拷贝</sys:String>
+    <sys:String x:Key="stop">停止</sys:String>
+    <sys:String x:Key="desc">...</sys:String>
+    <sys:String x:Key="workfinish">工作完毕!!!</sys:String>
+
+    <sys:String x:Key="cmd0">只复制有存档属性集的文件，但不改变属性。</sys:String>
+    <sys:String x:Key="cmd1">只复制有存档属性集的文件，并关闭存档属性。</sys:String>
+    <sys:String x:Key="cmd2">创建每个目标文件前提示。</sys:String>
+    <sys:String x:Key="cmd3">复制目录和子目录，除了空的。</sys:String>
+    <sys:String x:Key="cmd4">复制目录和子目录，包括空的。</sys:String>
+    <sys:String x:Key="cmd5">验证每个新文件。</sys:String>
+    <sys:String x:Key="cmd6">提示您在复制前按键。</sys:String>
+    <sys:String x:Key="cmd7">即使有错误，也继续复制。</sys:String>
+    <sys:String x:Key="cmd8">如果目标不存在，则假定目标一定是一个目录。</sys:String>
+    <sys:String x:Key="cmd9">复制时不显示文件名。</sys:String>
+    <sys:String x:Key="cmd10">复制时显示完整的源和目标文件名。</sys:String>
+    <sys:String x:Key="cmd11">显示要复制的文件。</sys:String>
+    <sys:String x:Key="cmd12">允许将没有经过加密的文件复制到不支持加密的目标。</sys:String>
+    <sys:String x:Key="cmd13">复制隐藏和系统文件。</sys:String>
+    <sys:String x:Key="cmd14">覆盖只读文件。</sys:String>
+    <sys:String x:Key="cmd15">创建目录结构，但不复制文件。</sys:String>
+    <sys:String x:Key="cmd16">只复制已经存在于目标中的文件。</sys:String>
+    <sys:String x:Key="cmd17">复制属性。一般的 Xcopy 会重置只读属性。</sys:String>
+    <sys:String x:Key="cmd18">用生成的短名复制。</sys:String>
+    <sys:String x:Key="cmd19">复制文件所有权和 ACL 信息。</sys:String>
+    <sys:String x:Key="cmd20">复制文件审核设置(隐含 /O)。</sys:String>
+    <sys:String x:Key="cmd21">不提示覆盖</sys:String>
+    <sys:String x:Key="cmd22">提示覆盖</sys:String>
+    <sys:String x:Key="cmd23">用重新启动模式复制网络文件。</sys:String>
+    <sys:String x:Key="cmd24">复制符号链接本身与链接目标相对</sys:String>
+    <sys:String x:Key="cmd25">复制时不使用缓冲的 I/O。推荐复制大文件时使用。</sys:String>
+    <sys:String x:Key="cmd26">复制在指定日期或指定日期以后更改的文件。</sys:String>
+    <sys:String x:Key="cmd27">...</sys:String>
+    <sys:String x:Key="cmd28">...</sys:String>
+    <sys:String x:Key="cmd29">...</sys:String>
+</ResourceDictionary>
