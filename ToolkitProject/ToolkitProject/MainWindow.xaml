@@ -1,12 +1,37 @@
-﻿<Window x:Class="ToolkitProject.MainWindow"
+﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ToolkitProject"
+        xmlns:Properties="clr-namespace:ToolkitProject.Properties" x:Class="ToolkitProject.MainWindow"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="XCopy GUI" Height="530" Width="940" Background="White" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <Grid x:Name="grid1">
+        <Label Content="{DynamicResource srcdir}" HorizontalAlignment="Left" Margin="10,24,0,0" VerticalAlignment="Top"/>
+        <Label Content="{DynamicResource dstdir}" HorizontalAlignment="Left" Margin="6.02,54,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="CtlTb_PATH1" HorizontalAlignment="Left" Height="23" Margin="87,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="675"/>
+        <TextBox x:Name="CtlTb_PATH2" HorizontalAlignment="Left" Height="23" Margin="87,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="675"/>
+        <Button x:Name="CtlBt_PATH1" Content="..." HorizontalAlignment="Left" Margin="60,28,0,0" VerticalAlignment="Top" Width="22" Click="CtlBt_PATH1_Click"/>
+        <Button x:Name="CtlBt_PATH2" Content="..." HorizontalAlignment="Left" Margin="60,60,0,0" VerticalAlignment="Top" Width="22" Click="CtlBt_PATH2_Click"/>
+        <GroupBox x:Name="group1" Header="recommand" HorizontalAlignment="Left" Height="53" Margin="17,82,0,0" VerticalAlignment="Top" Width="625">
+            <RadioButton x:Name="CtlRadBt_bt1" Content="null" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" GroupName="group1"/>
+        </GroupBox>
+        <RadioButton x:Name="CtlRadBt_bt2" Content="/E/S/Y/H/L" HorizontalAlignment="Left" Margin="113,108,0,0" VerticalAlignment="Top" GroupName="group1"/>
+        <RadioButton x:Name="CtlRadBt_bt3" Content="/E/S/Y" HorizontalAlignment="Left" Margin="219,108,0,0" VerticalAlignment="Top" GroupName="group1"/>
+        <ProgressBar HorizontalAlignment="Left" Height="6" Margin="0,140,0,0" VerticalAlignment="Top" Width="932"/>
+        <ListBox x:Name="CmdListBox" HorizontalAlignment="Left" Height="160" Margin="0,339,0,0" VerticalAlignment="Top" Width="932" HorizontalContentAlignment="Stretch" Background="Black" Foreground="Yellow"/>
+        <Label x:Name="ctllb_desc1" Content="{DynamicResource desc}" HorizontalAlignment="Left" Margin="771,23,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="ctllb_desc2" Content="{DynamicResource desc}" HorizontalAlignment="Left" Margin="771,55,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="BTLangEN" Content="En" HorizontalAlignment="Left" Margin="651.67,-1.24,0,0" VerticalAlignment="Top" Width="18" Click="BTLangEN_Click"/>
+        <Button x:Name="BTLangCN" Content="中" HorizontalAlignment="Left" Margin="628.67,-1.24,0,0" VerticalAlignment="Top" Width="18" Click="BTLangCN_Click"/>
+        <Button x:Name="BTLangFR" Content="Fr" HorizontalAlignment="Left" Margin="720.67,-1.24,0,0" VerticalAlignment="Top" Width="18" Click="BTLangFR_Click"/>
+        <Button x:Name="BTLangDE" Content="De" HorizontalAlignment="Left" Margin="674.67,-1.24,0,0" VerticalAlignment="Top" Width="18" Click="BTLangDE_Click"/>
+        <Button x:Name="BTLangKR" Content="Kr" HorizontalAlignment="Left" Margin="697.67,-1.24,0,0" VerticalAlignment="Top" Width="18" Click="BTLangKR_Click"/>
+        <Button x:Name="BTLangJP" Content="Jp" HorizontalAlignment="Left" Margin="743.67,-1.24,0,0" VerticalAlignment="Top" Width="18" Click="BTLangJP_Click"/>
+        <Button x:Name="BTStart" Content="{DynamicResource start}" HorizontalAlignment="Left" Margin="661.67,82,0,0" VerticalAlignment="Top" Width="260.33" Height="53" Click="BTStart_Click"/>
+        <Grid x:Name="ListGrid1" HorizontalAlignment="Left" Height="183" Margin="0,151,0,0" VerticalAlignment="Top" Width="932"/>
+
+
     </Grid>
 </Window>

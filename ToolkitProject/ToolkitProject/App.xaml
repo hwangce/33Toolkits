@@ -4,6 +4,11 @@
              xmlns:local="clr-namespace:ToolkitProject"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <!--这个节点就是配置默认语言的-->
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="lang\cn.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
