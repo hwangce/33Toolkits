@@ -25735,11 +25735,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\source\\github\\33Toolkits\\ToolkitProject\\33ToolKitsUWP\\33ToolKitsUWP.csproj",
+      "projectUniqueName": "E:\\source\\git\\33Toolkits\\ToolkitProject\\33ToolKitsUWP\\33ToolKitsUWP.csproj",
       "projectName": "33ToolKitsUWP",
-      "projectPath": "E:\\source\\github\\33Toolkits\\ToolkitProject\\33ToolKitsUWP\\33ToolKitsUWP.csproj",
+      "projectPath": "E:\\source\\git\\33Toolkits\\ToolkitProject\\33ToolKitsUWP\\33ToolKitsUWP.csproj",
       "packagesPath": "C:\\Users\\hwang\\.nuget\\packages\\",
-      "outputPath": "E:\\source\\github\\33Toolkits\\ToolkitProject\\33ToolKitsUWP\\obj\\",
+      "outputPath": "E:\\source\\git\\33Toolkits\\ToolkitProject\\33ToolKitsUWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
